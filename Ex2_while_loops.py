@@ -49,6 +49,10 @@ print("-------------------------------------------\n"
 #     number = number + 1
 #
 # Write your code below:
+count=1
+while count<=5:
+    print(count)
+    count=count+1
 
 
 # -------------------------------------------
@@ -85,7 +89,10 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
-
+word = input("type a word :")
+while word!="stop":
+    print("Hello, You Typed ",word)
+    word=input("type again:")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
@@ -117,6 +124,12 @@ print("-------------------------------------------\n"
 #     print("Try again")
 #
 # Write your code below:
+number=int(input("Enter a number between 1 to 10 :"))
+while 1<=number<=10:
+    print("Thank you")
+    break
+else:
+    print("Incorrect,Try again")
 
 
 # -------------------------------------------
@@ -156,6 +169,13 @@ print("-------------------------------------------\n"
 #     something = something - 1
 
 # Write your code below:
+count=10
+while count>0:
+    print(count)
+    count=count-1
+if(count<1):
+    print("Liftoff") 
+   
 
 
 # -------------------------------------------
@@ -184,6 +204,14 @@ print("-------------------------------------------\n"
 #     print("Try again")
 
 # Write your code below:
+password="admin"
+pswd_entered=input("Enter the password:")
+while pswd_entered==password:
+    print("Access granted")
+    break
+else:
+    print("Try again")
+
 
 
 # -------------------------------------------
@@ -212,6 +240,19 @@ print("-------------------------------------------\n"
 #     total = total + num
 
 # Write your code below:
+
+
+
+total=0
+while total <50:
+    number1=int(input("Enter first number :"))
+    number2=int(input("Enter second number:"))
+    total=int(number1+number2)
+    print("Total",total)
+
+
+
+
 
 
 # -------------------------------------------
