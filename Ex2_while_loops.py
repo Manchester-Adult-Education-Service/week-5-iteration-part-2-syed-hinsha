@@ -169,6 +169,13 @@ print("-------------------------------------------\n"
 #     something = something - 1
 
 # Write your code below:
+count=10
+while count>0:
+    print(count)
+    count=count-1
+if(count<1):
+    print("Liftoff") 
+   
 
 
 # -------------------------------------------
@@ -197,6 +204,14 @@ print("-------------------------------------------\n"
 #     print("Try again")
 
 # Write your code below:
+password="admin"
+pswd_entered=input("Enter the password:")
+while pswd_entered==password:
+    print("Access granted")
+    break
+else:
+    print("Try again")
+
 
 
 # -------------------------------------------
