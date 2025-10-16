@@ -124,6 +124,12 @@ print("-------------------------------------------\n"
 #     print("Try again")
 #
 # Write your code below:
+number=int(input("Enter a number between 1 to 10 :"))
+while 1<=number<=10:
+    print("Thank you")
+    break
+else:
+    print("Incorrect,Try again")
 
 
 # -------------------------------------------
