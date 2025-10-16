@@ -89,7 +89,10 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
-
+word = input("type a word :")
+while word!="stop":
+    print("Hello, You Typed ",word)
+    word=input("type again:")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
