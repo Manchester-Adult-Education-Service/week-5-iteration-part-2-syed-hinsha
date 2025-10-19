@@ -88,7 +88,10 @@ print("-------------------------------------------\n"
 #     something = input("Type again: ")
 #
 # Write your code below:
-
+value=""
+while value != "stop":
+    print("You typed ", value)
+    value=input("Please enter a word: ")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -118,10 +121,12 @@ print("-------------------------------------------\n"
 # Hint: You’ll need to use int() to convert the input into a number.
 # Example (similar idea):
 # while guess != target:
-#     print("Try again")
+#     print("Try again"
 #
 # Write your code below:
-
+value=int(input("enter a number between 1 and 10 "))
+while value<1 or value>10:
+    value=int(input("Try again "))
 
 # -------------------------------------------
 # SWAP COMPUTERS
