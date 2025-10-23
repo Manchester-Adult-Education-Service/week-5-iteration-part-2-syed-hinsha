@@ -49,6 +49,10 @@ print("-------------------------------------------\n"
 #     number = number + 1
 #
 # Write your code below:
+count=1
+while count<=5:
+    print(count)
+    count=count+1
 
 
 # -------------------------------------------
@@ -84,7 +88,10 @@ print("-------------------------------------------\n"
 #     something = input("Type again: ")
 #
 # Write your code below:
-
+value=""
+while value != "stop":
+    print("You typed ", value)
+    value=input("Please enter a word: ")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -114,10 +121,12 @@ print("-------------------------------------------\n"
 # Hint: You’ll need to use int() to convert the input into a number.
 # Example (similar idea):
 # while guess != target:
-#     print("Try again")
+#     print("Try again"
 #
 # Write your code below:
-
+value=int(input("enter a number between 1 and 10 "))
+while value<1 or value>10:
+    value=int(input("Try again "))
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -156,8 +165,11 @@ print("-------------------------------------------\n"
 #     something = something - 1
 
 # Write your code below:
-
-
+value=10
+while value>0:
+    print (value)
+    value= value - 1
+print ("liftoff!")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
@@ -184,7 +196,10 @@ print("-------------------------------------------\n"
 #     print("Try again")
 
 # Write your code below:
-
+password= ""
+while password != "password123":
+    password=input("please enter a password :")
+print("Access granted")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -212,7 +227,11 @@ print("-------------------------------------------\n"
 #     total = total + num
 
 # Write your code below:
-
+total = 0
+while total <= 50:
+    num = int(input("Enter a number: "))
+    total = total + num
+print(f"total is {total}")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -245,7 +264,18 @@ print("-------------------------------------------\n"
 # Hint: Use a counter variable to count attempts.
 
 # Write your code below:
-
+secret_number = 9
+answer = 0
+try_count = 0
+while answer != secret_number:
+    answer = int(input("guess a nubmer: "))
+    try_count = try_count + 1
+    if (answer > secret_number):
+        print("too high")
+    elif (answer < secret_number):
+        print("too low")
+    else:
+        print(f"correct this took {try_count}")
 
 # -------------------------------------------
 # Submitting Your Work
